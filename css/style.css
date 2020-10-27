@@ -1,0 +1,144 @@
+/*importing font Montserrat which was absent in our system from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    /*put it like in a box H&V inside*/
+}
+
+body{
+    margin:0;
+    background-color: rgb(116, 81, 235);
+    color:white;
+    font-family: 'MontSerrat';
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.up-cover {
+    background: url('../img/Header-Site.jpg');
+    background-size: cover;
+}
+
+.inside-cover{
+    padding: 1.5em;
+    max-width: 1200;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul {
+    display: flex;
+}
+
+li a{
+    padding: 0.6em;
+}
+
+.logo {
+        font-weight: bold;
+    }
+
+.text-up-content{
+    margin: 4em 0 2em;
+    
+}
+
+.soustitre{
+    margin-bottom: 0;
+}
+
+.body-content{
+    background: rgb(49, 2, 202);
+}
+
+.statistic{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 2em;
+   
+}
+
+.statistic li{
+    margin-top: 1.5em;
+}
+
+.statistic strong{
+    font-size: 1.4em;
+}
+
+.statistic span{
+    display:block;
+    text-transform: uppercase;
+    font-size: .7em;
+    justify-content: space-between;
+}
+
+.arrows{
+    display: none;
+}
+
+
+.news-content{
+
+    padding: 0 1.5em 2em;
+    max-width: 1230px;
+    margin:0;
+}
+
+ul.Caroussal{
+    background: rgb(70, 70, 202);
+    padding: 1em;
+    margin-bottom: 1em;
+    display:flex;
+}
+
+.blockquote{
+    margin:0;
+    font-size: .8em;
+    line-height: 1.8em;
+    margin-bottom: 1em;
+}
+
+cite{
+    color:goldenrod;
+    font-weight:bold;
+    font-size: 0.8em;
+    font-style:normal;
+    position:relative;
+    padding-left: 60px
+}
+
+.breve-history{
+    margin: 30px;
+    color:white;
+
+}
+
+.content_descript, .content_service, .content_domain {
+    margin: 5em;
+    font-weight: lighter;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
