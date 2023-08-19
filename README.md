@@ -1,11 +1,10 @@
-# QuidInnovate
+# codemarch-portfolio
 
-Web Site exploiting Some tag basics
+Beginner challenge designed to make a portfolio for codemarch
 
 ## Built with
 
 - Html
-- Css
 
 ## Getting Started
 
