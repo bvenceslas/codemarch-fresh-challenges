@@ -1,4 +1,4 @@
-# codemarch-challenges
+# codemarch-fresh-challenges
 
 A 30 days codemarch challenge designed to learn Html, Css, and Tailwind Css
 
