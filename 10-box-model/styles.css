@@ -1,0 +1,18 @@
+.container {
+  border: 2px solid black; /* giving to my content a black border of 2px with and solid style */
+  width: 100%; /* Specifying that my content will take 100% of the with of the screen */
+}
+
+.inner {
+  margin: 10px 20px;
+  padding: 50px;
+  border: 20px solid red;
+  background-color: rgb(44, 164, 201);
+}
+
+.outer {
+  color: white;
+  margin: 30px 20px;
+  padding: 0;
+  background-color: rgb(22, 68, 50);
+}
